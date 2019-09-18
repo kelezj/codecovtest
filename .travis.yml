@@ -11,4 +11,4 @@ script:
   - ./go.test.sh
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash) -t cc39d0a1-33a3-4e38-91ef-942566752b4a
